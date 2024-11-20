@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+<!-- Dependency Object -1 -->
+   <bean id="nrm" class="org.jsp.Bike.Normal">
+   <constructor-arg value="shell" name="brand"></constructor-arg>
+   <constructor-arg value="119" name="cost"></constructor-arg>
+   <constructor-arg value="23" name="mileage"></constructor-arg>
+   </bean>
+   <!-- Dependency Object -2 -->
+   <bean id="pwr" class="org.jsp.Bike.Powerclass">
+   <constructor-arg value="dfg" name="brand"></constructor-arg>
+   <constructor-arg value="109" name="cost"></constructor-arg>
+   <constructor-arg value="23" name="mileage"></constructor-arg>
+   </bean>
+   <!-- Dependency Object -3 -->
+    <bean id="hp" class="org.jsp.Bike.Hp95class">
+   <constructor-arg value="hp" name="brand"></constructor-arg>
+   <constructor-arg value="109" name="cost"></constructor-arg>
+   <constructor-arg value="23" name="mileage"></constructor-arg>
+   </bean>
+   <!-- Dependent Object -->
+   <bean id="bk" class="org.jsp.Bike.bikeBeanClass">
+   <constructor-arg value="bmw" name="name"></constructor-arg>
+   <constructor-arg value="700000" name="cost"></constructor-arg>
+   <constructor-arg value="red" name="color"></constructor-arg>
+   <constructor-arg ref="pwr" name="petrol"></constructor-arg>
+   </bean>
+  
+
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringMVC/src/main/webapp/WEB-INF/controllerfile-servlet.xml&apos; to &apos;controller-servlet.xml&apos;" description="Rename resource &apos;controllerfile-servlet.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/controllerfile-servlet.xml" name="controller-servlet.xml" stamp="1720718901560" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+1)wap to create a method to check the summation of array elements is palindrome or not
+-->if summation is exceeding with 3 digits print good palindrome number.
+-->if summation is exceeding with two digits print average palindrome number
+-->if summation is one or two digits print bad palindrome number
+-->if array contains all negative values print array present with only negative values 
+-->if array contains all 0 values print array present with all zeroes
+-->if array contains combination of negative and positive values convert all -ve values into +ve values

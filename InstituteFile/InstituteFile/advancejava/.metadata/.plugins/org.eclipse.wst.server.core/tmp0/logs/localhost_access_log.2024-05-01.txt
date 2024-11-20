@@ -1,0 +1,5 @@
+127.0.0.1 - - [01/May/2024:22:53:37 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/May/2024:22:53:41 +0530] "GET /Banking/Login.jsp HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [01/May/2024:22:53:41 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/May/2024:22:53:43 +0530] "GET /Banking/Registration.jsp HTTP/1.1" 200 639
+0:0:0:0:0:0:0:1 - - [01/May/2024:22:54:29 +0530] "GET /Banking/registerControllerlink?name=sushmi&phno=6543218765&email=sushmi%40gmail.com&add=banglore&gen=female&dob=2023-01-21&toa=savings HTTP/1.1" 200 -

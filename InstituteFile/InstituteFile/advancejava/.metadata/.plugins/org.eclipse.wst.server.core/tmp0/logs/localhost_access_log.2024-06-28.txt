@@ -1,0 +1,11 @@
+127.0.0.1 - - [28/Jun/2024:08:55:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:08:55:48 +0530] "GET /LearningServlets/WEB-INF/classes/com/jsp/Servlets/Demo.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:08:55:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [28/Jun/2024:18:30:56 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:18:30:59 +0530] "GET /LearningServlets/WEB-INF/classes/com/jsp/Servlets/Demo.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:18:30:59 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [28/Jun/2024:18:31:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:18:31:32 +0530] "GET /LearningServlets/WEB-INF/classes/com/jsp/Servlets/Demo.java HTTP/1.1" 404 682
+127.0.0.1 - - [28/Jun/2024:18:37:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:18:37:58 +0530] "GET /LearningAboutTakingInputsFromHtml/HtmlInputs.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Jun/2024:18:38:15 +0530] "GET /LearningAboutTakingInputsFromHtml/Htmlformurl?name=sushmi&skills=java&sal=100000 HTTP/1.1" 200 -

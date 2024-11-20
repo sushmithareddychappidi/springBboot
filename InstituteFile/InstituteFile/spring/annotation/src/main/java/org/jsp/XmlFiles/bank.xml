@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+
+
+<!--  Dependency Object-1 -->
+<bean id="acc" class="org.jsp.Autowiring.currentAccount"> 
+<constructor-arg name="accno" value="564763526"/>
+<constructor-arg name="ahn" value="sushmi"/>
+<constructor-arg name="mail" value="sush@gmail.com"/>
+<constructor-arg name="mobileno" value="8754329876"/>
+<constructor-arg name="username" value="sushmitha"/>
+<constructor-arg name="password" value="1294"/>
+</bean> 
+<!--  Dependency Object-2 -->
+<bean id="sa" class="org.jsp.Autowiring.SavingsAccount"> 
+<constructor-arg name="accno" value="8745632876"/>
+<constructor-arg name="ahn" value="ashwini"/>
+<constructor-arg name="mail" value="ash@gmail.com"/>
+<constructor-arg name="mobileno" value="8785645434"/>
+<constructor-arg name="username" value="nukala ashwini"/>
+<constructor-arg name="password" value="6764"/>
+</bean>
+<!--  Dependency Object-3  -->
+<bean id="address" class="org.jsp.Autowiring.permanentimplementation"> 
+<constructor-arg name="doorno" value="2/67A"/>
+<constructor-arg name="streetno" value="23"/>
+<constructor-arg name="area" value="Krishnasai Enclave"/>
+<constructor-arg name="city" value="hyderabad"/>
+<constructor-arg name="state" value="telangana"/>
+<constructor-arg name="nation" value="india"/>
+</bean>  
+<!--  Dependency Object-4  -->
+<bean id="cadd" class="org.jsp.Autowiring.currentimplementation"> 
+<constructor-arg name="doorno" value="27A"/>
+<constructor-arg name="streetno" value="205"/>
+<constructor-arg name="area" value="miyapur"/>
+<constructor-arg name="city" value="hyderabad"/>
+<constructor-arg name="state" value="telangana"/>
+<constructor-arg name="nation" value="india"/>
+</bean>  
+
+<!-- Auto Scanning  -->
+<context:component-scan base-package="org.jsp.Autowiring"/> 
+
+
+
+<!--dependent object  constructor  
+<bean id="account" class="org.jsp.Autowiring.bankBeanClass" > 
+<property name="name" value="sbi"/>
+<property name="branch" value="miyapur"/>
+<property name="ifsc" value="SBI76543"/>
+</bean> -->
+<bean id="account" class="org.jsp.Autowiring.bankBeanClass" > 
+<property name="name" value="sbi"/>
+<property name="branch" value="miyapur"/>
+<property name="ifsc" value="SBI76543"/>
+</bean> 
+
+
+</beans>

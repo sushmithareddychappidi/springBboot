@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+C:\Users\susmitha\eclipse-workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1450461741.index
+\SpringmvcWithClassConfig\src\main\java
+C:\Users\susmitha\eclipse-workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\785609140.index
+\SpringmvcWithClassConfig\src\main\resources
+C:\Users\susmitha\eclipse-workspace\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\893552416.index
+\SpringMVC\src\main\resources

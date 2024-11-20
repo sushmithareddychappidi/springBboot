@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+   <!-- Dependency Object 1 -->
+   <bean id="dt" class="java.util.Date"></bean>
+   <!-- Dependency Object 2-->
+   <bean id="permanent" class="org.jsp.customerproject.permanentimle" >
+   <property name="doorno" value="2/67A"/>
+   <property name="streetno" value="101"/>
+   <property name="area" value="krishnasai_enclave"/>
+   <property name="landmark" value="miyapur"/>
+   <property name="city" value="hyderabad"/>
+   <property name="state" value="telangana"/>
+   <property name="nation" value="india"/>
+   </bean>
+    <!-- Dependency Object 3-->
+   <bean id="current" class="org.jsp.customerproject.currentimple" >
+   <property name="doorno" value="456"/>
+   <property name="streetno" value="123"/>
+   <property name="area" value="miyapur"/>
+   <property name="landmark" value="maktha"/>
+   <property name="city" value="banglore"/>
+   <property name="state" value="karnataka"/>
+   <property name="nation" value="india"/>
+   </bean>
+    <!-- Dependency Object 4-->
+   <bean id="shirt" class="org.jsp.customerproject.shirtImple" >
+   <property name="type" value="checks"/>
+   <property name="color" value="blue"/>
+   <property name="cost" value="1500"/>
+   <property name="quantity" value="2"/>
+   <property name="size" value="m"/>
+   </bean>
+    <!-- Dependency Object 5-->
+   <bean id="hoodie" class="org.jsp.customerproject.Hoodieimple" >
+   <property name="type" value="sleeveless"/>
+   <property name="color" value="red"/>
+   <property name="cost" value="1000"/>
+   <property name="quantity" value="1"/>
+   <property name="size" value="m"/>
+   </bean>
+    <!-- Dependent Object 6-->
+   <bean id="cust" class="org.jsp.customerproject.customerBeanClass" >
+   <property name="name" value="sushmi"/>
+   <property name="date" ref="dt"/> 
+   <property name="Mobileno" value="8746534242"/>
+   <property name="address" ref="permanent"/>
+   <property name="product" ref="shirt"/>
+   <property name="email" value="sushmi@gmail.com"/>
+   <property name="username" value="chappidi"/>
+   <property name="password" value="1234"/>
+   </bean>
+  
+
+</beans>

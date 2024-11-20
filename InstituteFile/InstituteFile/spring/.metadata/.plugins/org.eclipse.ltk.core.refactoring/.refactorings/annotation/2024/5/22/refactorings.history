@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;annotation/src/main/java/org/jsp/XmlFiles/bankconfig.xml&apos; to &apos;bank.xml&apos;" description="Rename resource &apos;bankconfig.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/org/jsp/XmlFiles/bankconfig.xml" name="bank.xml" stamp="1717178281438" updateReferences="true"/>
+</session>

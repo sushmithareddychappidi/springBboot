@@ -1,0 +1,13 @@
+127.0.0.1 - - [21/Apr/2024:22:13:04 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:13:06 +0530] "GET /LearingHowToStoreInputsFromWebPage/updateCustomerinfo.html HTTP/1.1" 200 306
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:13:07 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:13:44 +0530] "GET /LearingHowToStoreInputsFromWebPage/updateCustomerinfo.html? HTTP/1.1" 200 306
+127.0.0.1 - - [21/Apr/2024:22:34:28 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:34:29 +0530] "GET /LearingHowToStoreInputsFromWebPage/updateCustomerinfo.html HTTP/1.1" 200 370
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:34:49 +0530] "GET /LearingHowToStoreInputsFromWebPage/updatedinfourlofCustomer?mailId=csushmi21%40gmail.com&password=634%40 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2024:22:35:41 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:35:51 +0530] "GET /LearingHowToStoreInputsFromWebPage/updatedinfourlofCustomer?mailId=csushmi21%40gmail.com&password=634%40 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2024:22:48:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:48:07 +0530] "GET /LearingHowToStoreInputsFromWebPage/WEB-INF/deleteCust.html HTTP/1.1" 404 682
+127.0.0.1 - - [21/Apr/2024:22:49:14 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Apr/2024:22:49:15 +0530] "GET /LearingHowToStoreInputsFromWebPage/WEB-INF/deleteCust.html HTTP/1.1" 404 682

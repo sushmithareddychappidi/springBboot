@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+<bean id="research" class="org.jsp.LibraryProject.ResearchTypeImple">
+<constructor-arg name="subjects" value="chemistry"/>
+<constructor-arg name="noOfBooks" value="2"/>
+<constructor-arg name="compartments" value="24"/>
+</bean>
+<bean id="academic" class="org.jsp.LibraryProject.AcademicTypeImple">
+<constructor-arg name="subjects" value="java"/>
+<constructor-arg name="noOfBooks" value="87"/>
+<constructor-arg name="compartments" value="7"/>
+</bean>
+<bean id="permanent" class="org.jsp.LibraryProject.permanentAddressImple">
+<constructor-arg name="doorno" value="276"/>
+<constructor-arg name="streetno" value="43"/>
+<constructor-arg name="area" value="maktha"/>
+<constructor-arg name="city" value="hyderabad"/>
+<constructor-arg name="state" value="ts"/>
+<constructor-arg name="nation" value="india"/>
+</bean>
+<bean id="current" class="org.jsp.LibraryProject.currentAddressImple">
+<constructor-arg name="doorno" value="2/67A"/>
+<constructor-arg name="streetno" value="67"/>
+<constructor-arg name="area" value="kukatpally"/>
+<constructor-arg name="city" value="hyderabad"/>
+<constructor-arg name="state" value="ts"/>
+<constructor-arg name="nation" value="india"/>
+</bean>
+<bean id="faculty" class="org.jsp.LibraryProject.facultyReaderImple">
+<constructor-arg name="name" value="sireesha"/>
+<constructor-arg name="address" value="andhra"/>
+<constructor-arg name="phno" value="876543542"/>
+<constructor-arg name="branch" value="ece"/>
+</bean>
+<bean id="student" class="org.jsp.LibraryProject.studentReaderImple">
+<constructor-arg name="name" value="sushmi"/>
+<constructor-arg name="address" value="telangana"/>
+<constructor-arg name="phno" value="86576565532"/>
+<constructor-arg name="branch" value="cse"/>
+</bean>
+<bean id="branch" class="org.jsp.LibraryProject.branchAdminimple">
+<constructor-arg name="name" value="pallavi"/>
+<constructor-arg name="experience" value="5"/>
+<constructor-arg name="qualification" value="inter"/>
+<constructor-arg name="empid" value="76St"/>
+</bean>
+<bean id="manager" class="org.jsp.LibraryProject.managerAdminimple">
+<constructor-arg name="name" value="mounika"/>
+<constructor-arg name="experience" value="1"/>
+<constructor-arg name="qualification" value="degree"/>
+<constructor-arg name="empid" value="76YS"/>
+</bean>
+<bean id="lib" class="org.jsp.LibraryProject.LibraryBeanClass">
+<property name="name" value="pushpak"/>
+<property name="type" ref="research"/>
+<property name="address" ref="current"/>
+<property name="noOfBooks" value="12000"/>
+<property name="opentime" value="9Am"/>
+<property name="closetime" value="10Pm"/>
+<property name="reader" ref="student"/>
+<property name="admin" ref="manager"/>
+</bean>
+
+</beans>

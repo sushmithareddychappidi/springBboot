@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=firstjpaproject/src\/main\/java&lt;com.jsp.user{UserInfo.java[UserInfo" modifiers="1" timestamp="1716031620519"/>
+    <typeInfo handle="=secondjavapro/src&lt;com.jsp.ecomerce{studentinfo.java[studentinfo" modifiers="1" timestamp="1715943362536"/>
+    <typeInfo handle="=OneToOne/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jsp.entity{AadharDetails.java[AadharDetails" modifiers="1" timestamp="1718016572770"/>
+    <typeInfo handle="=OneToManyandManyToOneProject/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jsp.entity{Address.java[Address" modifiers="1" timestamp="1718187199157"/>
+    <typeInfo handle="=ManyToMany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jsp.entity{PersonManyToMany.java[PersonManyToMany" modifiers="1" timestamp="1718261296006"/>
+    <typeInfo handle="=ManyToMany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jsp.entity{MobileM2M.java[MobileM2M" modifiers="1" timestamp="1718260961760"/>
+</typeInfoHistroy>
