@@ -1,0 +1,19 @@
+.form{
+    height:300px;
+    width:300px;
+    background-color: beige;
+    display: flex;
+    margin:150px auto;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+.cancel
+{
+    background-color: red;
+    padding:10px;
+    position:relative;
+    top:210px;
+    left:500px;
+}

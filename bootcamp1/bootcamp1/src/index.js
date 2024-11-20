@@ -1,0 +1,57 @@
+import React from "react";
+import ReactDOM  from "react-dom/client";
+import ClassComponent from "./FIRSTDAY/ClassComponent";
+import FunComp from "./FIRSTDAY/FunComp";
+// ReactDOM.createRoot(document.getElementById("root")).render(<ClassComponent/>);
+// ReactDOM.createRoot(document.getElementById("root")).render(<FunComp/>);
+import Parent from "./SECONDDAY/PROPS_LEARNING/Parent"
+//import Send1 from "./SECONDDAY/Props/Send1";
+// ReactDOM.createRoot(document.getElementById("root")).render(<Send1/>);
+//import First from "./SECONDDAY/TASK/First";
+// ReactDOM.createRoot(document.getElementById("root")).render(<First/>);
+import Frag from "./SECONDDAY/FRAGMENTS/Frag";
+// ReactDOM.createRoot(document.getElementById("root")).render(<Frag/>);
+import Condition from "./SECONDDAY/CONDITIONAL_RENDERING/Condition";
+//ReactDOM.createRoot(document.getElementById("root")).render(<Condition/>);
+//import One from "./3RD DAY/Props_Drilling/One";
+//ReactDOM.createRoot(document.getElementById("root")).render(<One/>);
+//import Global from "./3RD DAY/CONTEXT_API/GlobalData";
+//import Consumer from "./3RD DAY/CONTEXT_API/Consumer";
+//ReactDOM.createRoot(document.getElementById("root")).render(<Global.Provider value={{name:"sushmi",place:"hyd"}}><Consumer/></Global.Provider>);
+import ParentProp from "./3RD DAY/Props-Children/ParentProp";
+//ReactDOM.createRoot(document.getElementById("root")).render(<ParentProp/>);
+import ChangeColorTask from "./3RD DAY/TASK/ChangeColorTask";
+// ReactDOM.createRoot(document.getElementById("root")).render(<ChangeColorTask/>);
+//import "./Global.css";
+import Hoc3 from "./3RD DAY/higher-order-function/Hoc2"
+//ReactDOM.createRoot(document.getElementById("root")).render(<Hoc3/>);
+import LearnRef from "./4th DAY/LEARNING-useRef/LearnRef";
+// ReactDOM.createRoot(document.getElementById("root")).render(<LearnRef/>);
+import UncontrolledForm from "./4th DAY/FORMS/UncontrolledForm";
+// ReactDOM.createRoot(document.getElementById("root")).render(<UncontrolledForm/>);
+import ControlledForm from "./4th DAY/FORMS/ControlledForm";
+//  ReactDOM.createRoot(document.getElementById("root")).render(<ControlledForm/>);
+import TaskToAdd from "./4th DAY/TaskToAdd";
+//ReactDOM.createRoot(document.getElementById("root")).render(<TaskToAdd/>);
+//import Life from "./5TH DAY/life-cycle-methods/Life"
+// ReactDOM.createRoot(document.getElementById("root")).render(<Life/>);
+//import LearnEffect from "./5TH DAY/learn-useeffect/LearnEffect";
+// ReactDOM.createRoot(document.getElementById("root")).render(<LearnEffect/>);
+//import LearnKeys from "./5TH DAY/learning-keys/LearnKeys";
+//ReactDOM.createRoot(document.getElementById("root")).render(<LearnKeys/>);
+import LearnAxios from "./6thDAY/LERAN-AXIOS/LearnAxios";
+//ReactDOM.createRoot(document.getElementById("root")).render(<LearnAxios/>);
+// import LearPureComponent from "./6thDAY/PURE-COMPONENTS/LearPureComponent";
+// ReactDOM.createRoot(document.getElementById("root")).render(<LearPureComponent/>);
+import Pure from "./6thDAY/PURE-COMPONENTS/Pure";
+// ReactDOM.createRoot(document.getElementById("root")).render(<Pure/>);
+import ParentComponent from "./6thDAY/ALTERNATE-FOR -PURECOMPONENT/ParentComponent"
+// ReactDOM.createRoot(document.getElementById("root")).render(<ParentComponent/>);
+//import Port from "./7th DAY/PORTALS/Port";
+// ReactDOM.createRoot(document.getElementById("root")).render(<Port/>);
+//import AppRoute from "./7th DAY/ROUTER/AppRoute";
+// ReactDOM.createRoot(document.getElementById("root")).render(<AppRoute/>);
+//import UseMemoLearn from "./7th DAY/advance-hook/UseMemoLearn";
+//ReactDOM.createRoot(document.getElementById("root")).render(<UseMemoLearn/>);
+import Parent1 from "./8th DAY/use-callBack/Parent1";
+ReactDOM.createRoot(document.getElementById("root")).render(<Parent1/>);
