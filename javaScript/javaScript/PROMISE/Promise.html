@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=new Promise((res,rej)=>{
+            let num=20;
+            if(num%2==0)
+            {
+                res();
+            }
+            else
+            {
+                rej();
+            }
+        }).then(()=>{
+            console.log("even number");
+        }).catch(()=>{
+            console.log("odd number");
+        }).finally(()=>{
+            console.log("promise executed");
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        body{
+             background-color: white; 
+        }
+        div{
+            width:300px;
+            height:200px;
+            background-color: yellow;
+        }
+        button{
+            width:60%;
+            height:30px;
+        }
+        h1{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form id="form">
+        <input id="inp" type="text"> 
+        <br><br>
+        <button id="sub" onclick="submit()">Submit OTP</button>
+        <br><br>
+        <button  id="gene" onclick="generate()">Generate OTP</button> 
+        <h1 id="h1"></h1>
+    </form>
+    </div>
+    <script>
+        function generate()
+        {
+            
+            let otp=Math.floor((Math.random()*(9999-1000)+1000));
+            alert(otp);
+        }
+        function submit()
+        {
+            document.getElementById("inp").innerHTML=geneotp;
+            let generatedotp=document.getElementById("gene").innerHTML;
+            let b=localstorage.setItem("otp",);
+            let eneteredotp=document.getElementById("inp").value;
+            if(eneteredotp==b)
+            {
+                alert("access granted");
+            }
+            else
+            {
+                alert("access denied");
+            }
+        }   
+       // let geneotp=generate();
+        //document.getElementById("inp").innerHTML=geneotp;
+            //console.log(generate());
+           // alert(generate());
+           //generate();
+    </script>
+</body>
+</html>

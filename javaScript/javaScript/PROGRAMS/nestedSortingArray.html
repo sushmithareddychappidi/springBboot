@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[[1,6,7,8,9,77],[3,9,7,54]];
+        let b=a.join();
+        let c=b.split( ",");
+        console.log(c);
+        let d=c.join(" ");
+        console.log(d);
+        let maxnum=d[0]
+        for(let i=0;i<d.length;i++){
+            if(maxnum<d[i]){
+                maxnum=d[i];
+            }
+        }
+
+        // maxnum=a[0][0];
+        // for(let i=0;i<a.length;i++){
+        //    for(let j=0;j<a[i].length;j++){
+        //     if(maxnum<a[i][j]){
+        //     maxnum=a[i][j];
+        //     }
+        //     console.log(maxnum);
+        //    }
+        // }
+
+    </script>
+</body>
+</html>

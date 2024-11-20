@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[1,2,3];
+        console.log(a);
+        a.push(4);
+        a.pop();
+        a.shift();
+        a.unshift(1);
+        let b=a.indexOf(2);
+        console.log(b);
+        let c=a.slice(1,2);
+        console.log(c);
+        let array=["carrot","pineapple","banana","dtr"];
+        let d=array.splice(1,2,"apple");
+        console.log(array);
+        let arr=["beans","coriander","methi"];
+        let e=array.concat(arr);
+        console.log(e);
+        let f=arr.includes('methi');
+        console.log(f);
+        let g=arr.includes('besil');
+        console.log(g);
+
+        //foreach
+        let num=[1,2,3,4,5];
+        num.forEach(function(a){
+            const b1=a*2;
+            console.log(b1);
+        })
+
+        let mat=[1,2,3,4,5];
+        mat.map(function(b){
+            let m=b*2;
+            console.log(m);
+        })
+
+        let n=[1,2,3,4,5];
+       let o= n.filter(function(a){
+            return a%2==0;
+        });
+        console.log(o);
+
+        let p=[1,2,3,4];
+        let p1=p.reduce(function(acc,cur){
+            return acc+cur;
+        })
+        console.log(p1);
+
+    </script>
+</body>
+</html>

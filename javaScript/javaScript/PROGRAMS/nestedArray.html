@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let a=[1,2,3,[5,6,10,19]];
+    let maxnum=a[3][0];
+    for(let i=0;i<a.length;i++){
+
+        for(let j=0;j<a[i].length;j++){
+            if(maxnum<a[i][j]){
+            maxnum=a[i][j];
+            }                   
+    }
+}
+    console.log(maxnum);
+</script>
+</body>
+</html>

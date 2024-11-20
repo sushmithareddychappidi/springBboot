@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* .abc{
+        background-color:yellow;
+    } */
+    .xyz{
+        background-color:blue;
+    }
+    .abc{
+        background-color:yellow;
+    }
+    </style>
+   
+</head>
+<body>
+    <!-- <nav style="height:100px;background-color: black;color:white;align-items: center;justify-content: center;display:flex" id="nav">hii good morning!</nav>
+    <script>
+        let a=document.getElementById("nav");
+        console.log(a);
+        let textcolor=a.style.color;
+        console.log(textcolor);
+        // let checkborder=a.style.border;
+        // console.log(checkborder);
+        let checkborder=a.style.border="10px solid red";//to give the style properties using js we use style and we can also check whether the property is present r not in element
+        console.log(checkborder);
+    </script> -->
+
+
+<!--className-->
+    <!-- <h1 id="head">hii good evening!..</h1>
+    <script>
+        let b=document.getElementById("head");
+        console.log(b);
+        b.className="abc xyz";
+        let check=b.className;
+        console.log(check);
+    </script> -->
+
+<!--classList-->
+<h1 id="hii">hello</h1>
+<script>
+    let c=document.getElementById("hii");
+    console.log(c);
+    // c.classList="abc";
+    let check=c.classList;
+    console.log(check);
+    c.classList="hello bye";
+    c.classList.add("good" ,"goodeven");
+    c.classList.remove("bye");
+    c.classList.replace("hello","hii");
+    
+</script>
+</body>
+</html>

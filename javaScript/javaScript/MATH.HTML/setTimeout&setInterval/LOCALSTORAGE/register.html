@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<body>
+    <form id="form">
+    <input id="name" type="text" placeholder="enter your name"><br><br>
+    <input id="email" type="text" placeholder="enter your email"><br><br>
+    <input id="phno" type="text" placeholder="enter your phone number"><br><br>
+    <input id="pw" type="text" placeholder="enter your password"><br><br>
+    <button>register</button>
+    </form>
+    <script>
+        let form=document.getElementById("form");
+        let name=document.getElementById("name");
+        let email=document.getElementById("email");
+        let phno=document.getElementById("phno");
+        let pass=document.getElementById("pw");
+        form.addEventListener("submit",(e)=>{
+            e.preventDefault();
+            let na=name.value;
+            let em=email.value;
+            let ph=phno.value;
+            let pw=pass.value;
+
+            if(na!="" && em!="" && ph!="" && pw!="")
+            {
+                localStorage.setItem("username",na);
+                localStorage.setItem("email",em);
+                localStorage.setItem("phno",ph);
+                localStorage.setItem("password",pw);
+
+                open("./login.html");
+            }
+            else
+            {
+                alert("fill out");      
+            }
+
+        })
+
+    </script>
+</body>
+</html>

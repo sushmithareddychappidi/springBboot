@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function one()
+        {
+            return new Promise((res)=>{
+                setTimeout(()=>{
+                    res("promise resolved");
+                },1000)
+            })
+
+        }
+        async function two()
+        {
+            const twoVar=await one();
+            console.log(twoVar);
+            console.log("i am function two");
+        }
+        two();
+    </script>
+</body>
+</html>
