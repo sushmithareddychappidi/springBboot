@@ -1,0 +1,41 @@
+#grandfather{
+    width:600px;
+    height:600px;
+    background-color: aquamarine;
+}
+#father,#babai{
+    width:300px;
+    height:500px;
+    background-color: brown;
+    float:left;
+}
+#babai{
+    background-color: purple;
+}
+#you,#sibling1,#sibling2,#sibling3,#cou1,#cou2{
+    width:150px;
+    height:250px;
+    background-color: yellowgreen;
+    float:left;
+}
+#sibling1{
+    background-color: bisque;
+}
+#sibling2{
+    background-color:pink;
+}
+#sibling3{
+    background-color: olive;
+}
+#cou1{
+    background-color: navy;
+}
+#cou2{
+    background-color: palevioletred;
+}
+#you~#sibling2/*sibling1,2,3 can accessed by you it is an generaL/sibling selector*/{
+    background-color: black;
+} 
+#father+#babai{
+    background-color: white;
+}

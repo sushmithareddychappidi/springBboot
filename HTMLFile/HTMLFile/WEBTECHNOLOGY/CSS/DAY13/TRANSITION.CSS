@@ -1,0 +1,22 @@
+#a{
+    width:200px;
+    background-color: aquamarine;
+    background-image: url(../../ASSET/IMAGE/penggiff.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:200px;
+    /* transition-property: background-color,border-radius; */
+    /* transition-property: background-image,border-radius; */
+    transition-property: background-image,box-shadow,border-radius;
+    transition-duration: 1s,1s,0s;
+    transition-delay: 0s,4s;
+    margin-top: 10%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+#a:hover{
+    /* background-color: yellow; */
+    background-image: url(../../ASSET/IMAGE/jeeva.jpg);
+    box-shadow: 80px 80px 0px blue,-80px -80px 0px orangered,-80px 80px 0px indigo,80px -80px 0px yellowgreen;
+    /* border-radius: 100%; */
+}

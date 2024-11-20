@@ -1,0 +1,16 @@
+button{
+    width:120px;
+    height:120px;
+}
+#a{
+    cursor:grab;
+}
+#b{
+    cursor:grabbing;
+}
+#c{
+    cursor:url(../../ASSET/IMAGE/rabbitico.ico),pointer;
+}
+#d{
+    cursor:url(../../ASSET/IMAGE/penggico.ico),pointer;
+}

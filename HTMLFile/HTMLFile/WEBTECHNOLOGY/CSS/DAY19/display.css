@@ -1,0 +1,57 @@
+/* h1{
+    width:800px; 
+    height:500px;
+    background-color: yellow;
+    display:inline;/*inline takes the required amount of space & for block it will take 100% width by default
+}
+p{
+    background-color: greenyellow;
+    width:120px;
+    display:inline;
+}
+span{
+    background-color: aqua;
+    width:500px;
+    height:250px;
+   display:inline-block;/*inline block we can change the dimentions and it will take the required amount of space
+}
+b{
+    background-color: blue;
+    display:inline-block;
+    height:200px;
+}
+i{
+    background-color: chocolate;
+    display: inline-block;
+    height:250px;
+} */
+
+
+
+/*display :none  --->is used to remove  the heading temporarily,we can also use transparent but it will not remove the heading instead it will hide & make it as transparent
+h1{
+    /* color:transparent; 
+    display:none;
+}
+img{
+    width:200px;
+}*/
+
+/* display:flex*/
+*{
+    padding:0px;
+    margin:0px;
+}
+#container{
+    width:300px;
+    height:300px;
+    background-color: yellow;
+    display:flex;
+    
+}
+.child{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    border:2px solid black;
+}

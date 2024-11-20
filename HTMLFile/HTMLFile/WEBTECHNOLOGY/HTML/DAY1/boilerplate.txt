@@ -1,0 +1,11 @@
+<!DOCTTYPE html>
+<html>
+<head>
+<title>MY FIRST HTML PROGRAM</title>
+</head>
+<body>
+<h1>Hii this is my first page1</h1>
+<h2>Hii this is my first page2</h2>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+#solid{
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    outline:solid;
+    outline-offset: 10px;
+}
+#double{
+    border-style: double;
+    border-color: yellow;
+    border-width: 15px;
+}
+#dotted{
+    border-style: dotted;
+    border-color: palevioletred;
+    border-width: 10px;
+}
+#dashed{
+    border-style: dashed;
+    border-color: blue;
+    border-width: 10px;
+}
+img{
+    width:650px;
+    border-width: 15px;
+    border-color: black;
+}
+#groove{
+    border-style: groove;
+}
+#ridge{
+    border-style: ridge;
+}
+#inset{
+    border-style: inset;
+}
+#outset{
+    border-style: outset;
+}
+input{
+    width:650px;
+    height:50px;
+    /*border-style: solid;*/
+    border-style: none;
+    outline: none;
+
+
+}

@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#container{
+    width:300px;
+    height:300px;
+    /* background-color: fuchsia; */
+    position:absolute;
+    left:45%;
+    top:10%;
+}
+.petal{
+    width:150px;
+    height:150px;
+    /* border:2px solid black; */
+    background-image: linear-gradient(fuchsia,rgba(255, 0, 255, 0.401));
+    border-radius:150px 0px 150px 0px;
+    position:absolute;
+    transform:rotate(-45deg);
+    left:10%;
+    top:10%;
+    /* border:2px solid black; */
+   }
+#bud{
+    width:50px;
+    height:80px;
+    position:absolute;
+    top:50%;
+    left:27%;
+    border-radius: 10px 10px 300px 300px;
+    background-image: linear-gradient(rgb(59, 224, 142),rgb(84, 186, 135));
+    z-index: 6;
+}
+#left1{
+   z-index: 0;
+   transition: all 0.5s;
+}
+#left2{
+    z-index: 1;
+    transition: all 0.5s;
+}
+#center{
+    z-index: 5;
+    transition: all 0.5s;
+}
+#right1{
+     z-index: 4;
+     transition: all 0.5s;
+}
+#right2{
+    z-index: 3;
+    transition: all 0.5s;
+} 
+#container:hover #left1{
+    transform: rotate(-70deg) translate(-20px,-40px);
+}
+#container:hover #left2{
+    transform: rotate(-95deg) translate(-20px,-75px);
+}
+#container:hover #right1{
+    transform: rotate(-20deg) translate(45px,20px); 
+}
+#container:hover #right2{
+    transform: rotate(5deg) translate(80px,20px);
+}

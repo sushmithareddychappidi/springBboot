@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+img{
+    width:150px;
+    animation-name:moveveh;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes moveveh{
+    from{
+         transform:translate(0px);
+    }
+    to{
+        transform:translate(1300px);
+    }
+}
+#a{
+    animation-timing-function: ease;
+}
+#b{
+    animation-timing-function: ease-in;
+}
+#c{
+    animation-timing-function: ease-out;
+}
+#d{
+    animation-timing-function: ease-in-out;
+}
+#e{
+    animation-timing-function: linear;
+}

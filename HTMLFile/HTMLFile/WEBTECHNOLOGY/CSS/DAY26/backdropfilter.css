@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height:400vh;
+    background-image: url(../../ASSET/IMAGE/polarbearimg.jpg);
+    background-size: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:500px;
+    /* background-color: yellow; */
+    /* backdrop-filter: blur(12px); */
+    /* backdrop-filter: invert(100%); */
+
+}
+#up{
+    width:60px;
+    height:60px;
+    background-color: yellow;
+    border-radius: 100%;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}

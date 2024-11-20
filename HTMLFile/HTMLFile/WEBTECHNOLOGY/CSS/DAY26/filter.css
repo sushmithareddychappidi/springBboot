@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+img{
+    width:320px;
+}
+#a{
+    filter:blur(10px);
+    /*0 is the default value */
+}
+#b{
+    filter:brightness(50%);
+    /*min:0% max:morethan 100% default:100%*/
+}
+#c{
+    filter:contrast(10%);
+    /*min:0% max:morethan 100% default:100%*/
+}
+#d{
+    filter: grayscale(100%);
+    /*def:0% max:100%*/
+}
+#e{
+    filter:hue-rotate(45deg);
+    /**/
+}
+#f{
+    filter:invert(100%);
+    /*def:0% max:100%*/
+}
+#g{
+    filter:opacity(0.5);
+    /*def:0 max:1*/
+}
+#h{
+    filter:saturate(200%);
+    /**/
+}
+#i{
+    filter:sepia(100%);
+    /**/
+}
+#j{
+    filter:drop-shadow(5px 5px 0px black) drop-shadow(-5px -5px 0px green);
+    /**/
+}

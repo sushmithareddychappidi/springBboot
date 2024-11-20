@@ -1,0 +1,24 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#container{
+    width:70%;
+    height:600px;
+    background-color: yellow;
+    display:flex;
+    /*flex-direction:column;here we have row,column,column-reverse,row-reverse */
+    /*flex-wrap:wrap-reverse; wrap,nowrap,wrap-reverse*/
+    /*justify-content: start;start,end,center,space-evenly,space-between,space-around*/
+    /*align-items: center;start,end,center*/
+    flex-wrap: wrap;
+    align-content:end;/*start,end,center,space-between,space-around,space-evenly*/
+}
+.child{
+    width:150px;
+    height:150px;
+    background-color: blue;
+    border:2px solid black;
+    color:white;
+    font-size: 50px;
+}

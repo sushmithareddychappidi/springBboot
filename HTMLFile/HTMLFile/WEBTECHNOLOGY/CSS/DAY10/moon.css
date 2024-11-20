@@ -1,0 +1,33 @@
+#i,#a,#b,#c,#d{
+    width:100px;
+    height:100px;
+   /*background-color: yellow;*/
+   float:left;
+    border-radius: 100%;
+    /*padding:200px 50px 100px 100px;*/
+    margin:300px 50px 100px 100px;
+    box-shadow:5px 5px 0px white;
+}
+#a{
+    /*background-color: pink;*/
+    box-shadow:10px 15px 0px white;
+}
+#b{
+    /*background-color: green;*/
+    box-shadow:20px 25px 0px white;
+    margin:290px 50px 100px 100px;
+}
+#c{
+    /*background-color: red;*/
+    box-shadow:70px 35px 0px white;
+    margin:290px 50px 100px 100px;
+}
+#d{
+    /*background-color: blue;*/
+    box-shadow:60px 80px 0px white;
+    margin:250px 50px 100px 100px;
+}
+body{
+    background-color: black;
+}
+

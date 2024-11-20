@@ -1,0 +1,107 @@
+body{
+    height:900px;
+}
+p::first-letter{
+    color:red;
+    font-weight: bolder;
+    font-size:40px;
+}
+h4::first-line{
+    color:red;
+    font-size:40px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+h4::selection{
+    color:orangered;
+    background-color:aqua;
+    text-shadow: 4px 4px 4px black;
+}
+p::before{
+    content:"this is before";
+    color:green;
+    font-size: xx-large;
+    background-image: linear-gradient(yellow,green,blue);
+}
+p::after{
+    content:"this is after";
+    color:green;
+    font-size: xx-large;
+    background-image: linear-gradient(yellow,green,blue);
+}
+#a{
+    list-style: none;
+}
+#smile::before{
+   content:"😊";
+}
+#cry::before{
+    content:"😭";
+}
+#anger::before{
+    content:"😡";
+}
+#devil::before{
+    content:"😈";
+}
+#paragraph{
+    width:100%;
+    height:90px;
+    background-color: yellow;
+    overflow-x: hidden;
+}
+#paragraph::-webkit-scrollbar{
+    background-image: linear-gradient(yellow,pink,blue,yellow);
+    border-radius: 5px;
+    width:10px;
+
+}
+#paragraph::-webkit-scrollbar-thumb{
+    /* background-image:linear-gradient(black,red);
+    border-radius: 100%;
+    height: 20px; */
+    background-image: url(../../../ASSET/IMAGE/spinwheel.png);
+    background-size:100% ;
+    background-repeat: no-repeat;
+}
+body::-webkit-scrollbar{
+    background-image: linear-gradient(yellow,blue,red,indigo,green,orange);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    /* background-image:linear-gradient(black,red);
+    border-radius: 100%;
+    height: 20px; */
+    background-image: url(../../../ASSET/IMAGE/spinwheel.png);
+    background-size:100% ;
+    background-repeat: no-repeat;
+}
+input{
+    height:30px;
+    width:30%;
+    margin:0px 0px 150px 150px;
+    font-size:24px;
+    color:white;
+    background-color: black;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    padding:10px;
+
+}
+input::placeholder{
+    color:yellow;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 0px red;
+}
+
+
+li::marker{
+    /* color:aquamarine;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px green; */
+    content:url(../../../ASSET/IMAGE/st\ arrow.svg);
+}

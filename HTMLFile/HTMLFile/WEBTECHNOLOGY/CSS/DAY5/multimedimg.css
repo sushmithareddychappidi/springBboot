@@ -1,0 +1,19 @@
+body{
+    width:100%;
+    height:2500px;
+    background-image: url(../../ASSET/IMAGE/sun.png),url(../../ASSET/IMAGE/moon.png),url(../../ASSET/IMAGE/space.jpg);
+    background-size: 600px,300px,100% 900px;
+    background-position: -200px -300px,center left,center;
+    background-attachment: fixed,scroll,scroll;
+    background-repeat: no-repeat,no-repeat,repeat;
+
+}
+marquee{
+    float:right;
+    height:50%;
+}
+img{
+
+    height:200px;
+    float:right;
+}

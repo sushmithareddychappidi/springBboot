@@ -1,0 +1,27 @@
+div{
+    height:500px;
+    width:600px;
+}
+#a{
+    background-image: linear-gradient(red,purple);
+}
+#b{
+    background-image:linear-gradient(violet,blue,indigo,green,yellow,orange,red);
+}
+/* #c{
+    background-image: linear-gradient(black,transparent,transparent,orangered),linear-gradient(360deg,green,transparent,yellow),url(../../ASSET/IMAGE/jeeva.jpg);
+    background-size: 600px 600px;
+    background-repeat: no-repeat;
+    color:white;
+    text-align:center;
+} */
+#d{
+    background-image:linear-gradient(red,transparent,transparent,purple),linear-gradient(90deg,yellow,transparent,blue),url(../../ASSET/IMAGE/jeeva.jpg);
+    background-size: 600px 600px;
+}
+#e{
+    width:500px;
+    height:500px;
+    background-image: radial-gradient(circle,transparent 30%,blue 40%,lawngreen 50%,brown 60%),url(../../ASSET/IMAGE/jeeva.jpg);
+    background-size: 100% 100%;
+}

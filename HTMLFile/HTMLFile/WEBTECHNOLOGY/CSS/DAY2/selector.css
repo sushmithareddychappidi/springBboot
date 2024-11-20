@@ -1,0 +1,92 @@
+/* *{
+    color:red;
+    background-color: aqua;
+/* } //universal tag selector */
+/* h1{
+    color:blueviolet;
+}
+div{
+    color:brown;
+} //name tag selector*/
+/* #red{
+   color:red;
+}
+#blue{
+    color:blue
+}
+#yellow{
+    color:yellow
+}
+#green{
+    color:green
+}
+#purple{
+    color:purple;
+}
+#orangered{
+   color:orangered
+}//ID selector */
+/* .bgred{
+    background-color: red;
+}
+.colblack{
+    color:black;
+} //CLASS SELECTOR*/
+/* h1{
+    float:left;
+}
+.royalblue{
+    color:royalblue;
+}
+.red{
+    color:red;
+}
+#orangered{
+    color:yellow;
+}
+#green{
+    color:green;
+}
+#container{
+    width:100px;
+    height:100px;
+}//example for google text */
+
+/* #heading,#paragraph,#span{
+    color:red;
+} //example for span tag*/
+h1{
+    float: left;
+    font-size: 50px;
+    /* height:200px; */
+    /* width:40px; */
+}
+  #container{
+    width:500px; 
+    height:200px;
+    /* background-color: antiquewhite; */
+    
+} 
+marquee{
+    float:left;
+    width:50px;
+    height:500px;
+}
+.navyblue{
+    color:navy;
+}
+.purple{
+    color:purple
+}
+.yellow{
+    color:yellow;
+}
+#green{
+    color:green;
+}
+#orangered{
+    color:orangered;
+}
+#pink{
+    color:pink;
+}

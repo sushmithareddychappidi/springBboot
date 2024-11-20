@@ -1,0 +1,37 @@
+#a{
+    text-align:center;
+    letter-spacing: 10px;
+   /* text-decoration:overline*/;/*we have underline,overline,line-through*/
+   text-decoration: underline lawngreen wavy 2px;
+   font-family: 'Silkscreen', sans-serif;
+   /*text-shadow:horizontal,vertical,blur,color*/
+   /* text-shadow:5px 10px 2px red; */
+   /* text-shadow:2px 2px 2px orange;  */
+   text-shadow: 2px 5px 0px brown,-5px -7px 0px green; 
+   color:yellow;
+}
+
+p{
+    text-align:justify;/*center,left,right,justify*/
+    text-transform: capitalize;/*uppercase,lowercase,capitalize*/
+    text-indent:120px;
+    letter-spacing: 10px;/*letter spacing& word-spacing will accept only px default value for letter-spacing & word spacing is 0px
+    word-spacing: 10px;
+    line-height: 100px;/*line height default value is 20px*/
+}
+a{
+    text-decoration: underline yellow;
+}
+#b{
+    font-style: oblique;/*italic/oblique,normal*/
+    font-weight:200;/*lighter,bolder,bold,normal,valuesfrom 100-900*/
+    font-size:large;/*values in px, larger,large,small,smaller,x-smalle,xx-smalle,x-large,xx-large,medium*/
+
+}
+div{
+    width:400px;
+    height:400px;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow:-5px -25px 0px red;
+}

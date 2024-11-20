@@ -1,0 +1,72 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* input{
+    width:30%;
+    height:10vh;
+    color:blue;
+    border:2px solid black;
+    background-color: yellow;
+    position:absolute;
+    top:10%;
+    left:35%;
+} */
+div{
+    width:300px;
+    height:200px;
+    background-image: url(../../ASSET/IMAGE/tajmahal.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 25%;
+    left:40%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    transition:all 2s;
+}
+input:hover+div{
+    /* transform: rotate(180deg); */
+    /* transform:rotatez(90deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateX(90deg); */
+    transform:rotate(40deg) rotateX(60deg) rotateY(90deg) ;
+}
+
+
+input{
+    width:30%;
+    height:10vh;
+    color:blue;
+    border:2px solid black;
+    background-color: yellow;
+    position:absolute;
+    top:10%;
+}
+#left{
+
+    left:5%;
+}
+#right{
+
+    left:65%;
+}
+#up{
+    left:35%;
+    top:0px;
+}
+#down{
+    left:35%;
+} 
+#left:hover~div{
+    transform:translate(-200px,0px);
+}
+#right:hover~div{
+    transform:translate(200px,0px);
+}
+#up:hover~div{
+    transform:translate(0px,-500px);
+}
+#down:hover~div{
+    transform:translate(0px,400px);
+} 

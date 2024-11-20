@@ -1,0 +1,22 @@
+div{
+    height:400px;
+    width:400px;
+    border:1px solid black;
+}
+#a{
+    background-image: conic-gradient(red,black,red,black,red);/*if u dont want the line we have to end with same color*/
+}
+#b{
+    background-image: url(../../ASSET/IMAGE/sun.png),conic-gradient(blue,yellow,orange,skyblue,blue);
+    background-size: 200px,100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#c{
+    width:100%;
+    height:700px;
+    background-image: url(../../ASSET/IMAGE/moon.png),conic-gradient(yellow,red,orange,lawngreen,yellow,yellow,red,orange,lawngreen,yellow,red,orange,lawngreen,yellow);
+    background-repeat: no-repeat;
+    background-size: 40%,100% 100%;
+    background-position: center;
+}

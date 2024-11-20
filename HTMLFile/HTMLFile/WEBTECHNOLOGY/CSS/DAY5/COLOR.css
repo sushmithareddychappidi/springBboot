@@ -1,0 +1,26 @@
+body{
+    background-image: url(../../ASSET/IMAGE/jeeva.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;/*repeat,no-repeat,repeat-x,repeat-y*/
+    background-position: bottom left;/*we can pass top left/right/center,center left/right,bottom left/right/center*/
+    background-position: 200px 300px;/*x axsis y-axsis*/
+}
+#colorname{
+    color:red;
+}
+#hex{
+    color:#ffff00;
+}
+#hexa{
+    color:#ffff00ff;
+}
+#rgb{
+    color:rgb(0, 5, 90);
+}
+#rgba{
+    color:rgba(22, 99, 5, 0.207)/*4th argument is for transparent*/
+}
+input{
+    background-color: transparent;
+    color:black;
+}

@@ -1,0 +1,39 @@
+#grandfather{
+    width:600px;
+    height:400px;
+    background-color: navy;
+}
+#father,#babai{
+    width:300px;
+    height:300px;
+    background-color:red;  
+    float:left;  
+}
+#babai{
+background-color: black;
+}
+#child1,#child2,#babaichild1,#babaichild2{
+    width:150px;
+    height:200px;
+    background-color:yellow;
+    float:left;
+}
+#child2{
+    background-color: aqua;
+}
+#babaichild1{
+    background-color: brown;
+}
+#babaichild2{
+    background-color:pink;
+}
+#grandfather #babaichild1{/*here we can access father,babai,chil1,child2,babaichild1,babaichild2*/
+    background-color: white;
+}
+#father #child1{/*here we can access only child1,child2 of father*/
+    background-color: chocolate;
+}
+#grandfather #father{
+    background-color: greenyellow;
+}
+

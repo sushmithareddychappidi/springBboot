@@ -1,0 +1,74 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#circle{
+    width:60px;
+    height:60px;
+    background-color: orangered;
+    border-radius: 100%;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    box-shadow: 5px 5px 5px black;;
+}
+#mainlist{
+    position:absolute;
+    left:40px;
+    bottom:30px;
+    list-style: none;
+}
+#mainlist{
+    display:none;
+} 
+ #circle:hover #mainlist{
+    display:block;
+} 
+.mli{
+  padding: 10px;
+  background-color: black;
+  color:white;
+  letter-spacing: 5px;
+  font-weight: bold;
+  cursor:pointer;
+}
+.mli:hover{
+    transform:translate(50px);
+    color:black;
+    background-color: skyblue;
+}
+.mli:hover #carsubli{
+    display:block;
+}
+#carsubli{
+    position:absolute;
+    left:70%;
+    top:0px;
+    display:none;
+    list-style: none;
+}
+.csli{
+    padding:5px;
+    background-color: black;
+    color:white;
+    transition:all 0.5s;
+}
+.csli:hover{
+    transform:translate(20px);
+}
+ video{
+    width:220px;
+    position:absolute;
+    left:70px;
+    top:0px;
+    border-radius: 0px 30px 30px 30px;
+    box-shadow: 5px 5px 5px black;
+} 
+ .slivideo{
+    display:none; 
+    list-style: none;
+}
+.csli:hover .slivideo{
+    display:block;
+} 
+

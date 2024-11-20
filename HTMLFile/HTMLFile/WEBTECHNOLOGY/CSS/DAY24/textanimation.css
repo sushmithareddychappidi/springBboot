@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+#greet{
+    font-size:60px;
+    letter-spacing: 10px;
+    animation-name: textAnimation;
+    animation-duration: 5s;
+    color:red;
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+    animation-direction: alternate;/*when we use animation-direction as alternate the iteration count must be min 2*/
+}
+#year{
+    font-size:50px;
+    letter-spacing: 50px;
+    animation-name: textAnimation;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    color:red;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+#monDay{
+    font-size:40px;
+    letter-spacing: 30px;
+    animation-name: textAnimation;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    color:red;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+@keyframes textAnimation {
+    from{
+        transform:translate(-1050px);
+        color: green;
+    }
+    to{
+        transform:translate(0px);
+        color:yellow;
+    }
+    
+}

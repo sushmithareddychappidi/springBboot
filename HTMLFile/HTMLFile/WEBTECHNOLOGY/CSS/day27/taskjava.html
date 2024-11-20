@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            display: flex;
+            flex-direction: column;
+            /* align-content: center; */
+            /* align-items: center; */
+        }
+        div{
+            background-color: bisque;
+        border:2px solid black;
+        width:500px;
+        height:600px;
+        /* display:flex; */
+        /* flex-direction: column; */
+        /* align-items: center;
+        align-content: center;
+        justify-content: center; */
+        }
+        /*form{
+            align-items: center;
+            align-content: center;
+        } */
+        #sign{
+            width:150px;
+            height:50px;
+            background-color: green;
+            color:white;
+        }
+        input{
+            width:97%;
+            height:25px;
+        }
+        .name{
+            width:47%;
+
+        }
+        #gen{
+            width:20%;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>facebook</h1>
+    <div>
+        <h3>Create a new accout</h3>
+        <hr style="border: 2px solid black;">
+    <form>
+        <input class="name" type="text" placeholder="Firstname" required>
+        <input class="name" type="text" placeholder="Surname" required><br><br>
+        <input type="email" type="number" placeholder="Mobile number or email address" required><br><br>
+        <input type="password" placeholder="New password" required><br><br>
+        <h6>Date of birth</h6>
+        <input type="text" placeholder="00" required>
+        <input type="text" placeholder="mon" required>
+        <input type="text" placeholder="yyyy" required>
+        <h6>gender</h6>
+        <div id="gen">
+        <label>female</label>
+        <input type="radio">
+        </div>
+        <label>male</label>
+        <input type="radio" >
+        <label>custom</label>
+        <input type="radio">
+        <br><br>
+        <input id="sign" type="submit" value="sign up">
+
+    </form>
+    </div>
+</body>
+</html>

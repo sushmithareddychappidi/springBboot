@@ -1,0 +1,38 @@
+#grandfather{
+    width:600px;
+    height:600px;
+    background-color: aqua;/*child selector we use '>' symbol for accessing we can access only one generation in child selector*/
+}
+#father,#babai{
+    width:300px;
+    height:500px;
+    background-color:orange;
+    float:left;
+}
+#babai{
+    background-color: brown;
+}
+#you,#sibling,#cou1,#cou2{
+    width:150px;
+    height:200px;
+    background-color:chartreuse;
+    float:left;
+}
+#sibling{
+    background-color: yellow;
+}
+#cou1{
+    background-color: pink;
+}
+#cou2{
+    background-color: burlywood;
+}
+#grandfather>#babai/*father*/{
+    background-color: aliceblue;
+}
+#father>#you/*sibling*/{
+    background-color: black;
+}
+#babai>#cou1/*cou2*/{
+    background-color: black;
+}

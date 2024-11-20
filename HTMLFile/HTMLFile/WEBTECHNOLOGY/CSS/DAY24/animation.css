@@ -1,0 +1,59 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#a{
+    width:100px;
+    height:100px;
+    background-color: red;
+    border-radius: 100%;
+    animation-name: moveTheBall;
+    animation-duration: 10s;
+
+}
+@keyframes moveTheBall {
+    0%{
+        transform:translate(0px 0px) scale(1.5);
+        background-color: red;
+    }
+    10%{
+        transform: translate(20px,500px) scale(1.2);
+        background-color: yellow;
+    }
+    20%{
+        /* transform:translate(0px 0px) scale(1.5); */
+        /* background-color: green; */
+    }
+    30%{
+        /* transform:translate(150px 380px) scale(1); */
+        /* background-color: skyblue; */
+    }
+    40%{
+        /* transform:translate(920px 280px) scale(1.8); */
+        /* background-color: orangered; */
+    }
+    50%{
+        /* transform:translate(460px 0px) scale(1.5); */
+        /* background-color: purple; */
+    }
+    60%{
+        /* transform:translate(0px 240px) scale(2);
+        background-color: lawngreen; */
+    }
+    70%{
+        /* transform:translate(0px 240px) scale(1.5);
+        background-color: pink; */
+    }
+    80%{
+        /* transform:translate(460px 240px) scale(2.8);
+        background-color: aquamarine; */
+    }
+    90%{
+        /* transform:translate(0px 0px) scale(1.5);
+        background-color: maroon; */
+    }
+    100%{
+        /* transform:translate(460px 240px) scale(0);
+        background-color: goldenrod; */
+    }
+}
