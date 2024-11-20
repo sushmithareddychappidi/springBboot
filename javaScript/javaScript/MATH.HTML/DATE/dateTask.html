@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let d=new Date();
+        let b= d.getDate();
+        console.log(b);
+        let date=new Date(2024,1,20);
+        let future=date.getDate();
+        console.log(date.toLocaleDateString());
+        console.log(future);
+        let td=future-b;
+        console.log(td);
+       // console.log("days remaining until 2024-01-20: "+td+"days");
+        console.log("days remaining until "+date+":"+td+"days");
+    </script>
+</body>
+</html>

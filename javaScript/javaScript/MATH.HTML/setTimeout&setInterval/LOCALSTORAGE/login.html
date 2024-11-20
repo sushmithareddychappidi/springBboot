@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<body>
+    <form id="form">
+    <input id="email" type="text" placeholder="enter your email"><br><br>
+    <input id="pass" type="text" placeholder="enter your password"><br><br>
+    <button>login</button>
+    </form>
+    <script>
+        let form1=document.getElementById("form");
+        let email=document.getElementById("email");
+        let pass=document.getElementById("pass");
+        // let em=email.value;
+        // let pw=pass.value;
+        form1.addEventListener("submit",(e)=>{
+            e.preventDefault();
+            let em=email.value;
+            let pw=pass.value;
+            console.log(em);
+
+          if(em==localStorage.getItem("email") && pw==localStorage.getItem("password"))
+            {
+                      //alert("login successful");
+                      open("./page.html");
+            }
+            else if(em!=" " && pw!=" ")
+            {
+                //alert("incorrect credentials");
+                alert("fill out");      
+            }
+            else if(em!=localStorage.getItem("email") && pw!=localStorage.getItem("password"))
+            {
+                alert("incorrect credentials");
+            }
+        })
+
+    </script>
+</body>
+</html>

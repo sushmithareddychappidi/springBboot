@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:300px;
+            height:200px;
+            background-color: yellow;
+            color:black;
+            border:2px solid black;
+            padding:5% 0px 0px 10px;
+            margin:15% 20% 0px 40%;
+        }
+        ul{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form id="form">
+       <label>username:</label> 
+       <input type="text" id="user">
+       <br><br>
+       <label>Password:</label>
+       <input type="text" id="pwd">
+       <br><br>
+       <button>submit</button>
+       <input type="reset">
+    </form>
+    <ul id="ul"><ul>
+    </div>
+    <script>
+        let a=document.getElementById("form");
+        let list=document.getElementById("ul");
+        a.addEventListener("submit",(prevent)=>{
+            prevent.preventDefault();
+            let u=document.getElementById("user").value;  
+            let v=document.getElementById("pwd").value; 
+            let listinp=u;
+            list.insertAdjacentHTML('beforeend',`<li>${listinp}</li>`);
+            // console.log("user input:"+u);     
+            // console.log("password:"+v);
+        })
+        a.addEventListener("reset",()=>{
+            console.log("reset the details");
+        })
+       </script>
+
+</body>
+</html>

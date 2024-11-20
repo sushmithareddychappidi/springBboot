@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border:1px solid black;
+        }
+        th{
+            border:1px solid black;
+        }
+        td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table id="details">
+        <!-- <tr><th>NAME</th><th>ID</th><th>IMAGE</th></tr> -->
+    </table>
+    <script>
+        let ajax=new XMLHttpRequest();
+        console.log(ajax);
+        ajax.open("GET","https://api.github.com/users");
+        ajax.send();
+        ajax.onload=()=>{
+            let data=JSON.parse(ajax.response);
+            console.log(data);
+            data.forEach(element=>{
+                let tab=`<tr><th>login</th><th>id</th><th>login</th></tr>`;
+                for(let i=0;i<data.length;i++){
+                     tab+=`<tr><td>${element.login}</td><td>${element.id}</td><td>${element.login}</td></tr>`;                                     
+                }
+                document.querySelector("#details").innerHTML=tab;
+            });
+        }
+    </script>
+</body>
+</html>

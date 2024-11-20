@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        let emp={
+            name:"sushmitha",
+            place:"kadapa",
+            a:function(state,country){
+                console.log(this.name+" from "+this.place+" "+state+" "+country);
+            }
+        }
+        emp.a("andhra pradesh","india");
+        let emp2={
+            name:"vennela",
+            place:"banglore",
+        }
+        let b=emp.a.bind(emp2,"karnataka","india");
+        b();
+    </script>  
+    <!-- two object without function borrowing a function which is outside of the two functions 
+    <script>
+        let emp={
+            name:"chandana",
+            place:"manglore"
+        }
+        let emp2={
+            name:"shreyansh",
+            place:"ranchi"
+        }
+        // function a(state,country){
+        //     console.log(this.name+" from "+this.place+" "+state+" "+country);
+        // }
+        let a=function(state,country){
+            console.log(this.name+" from "+this.place+" "+state+" "+country);
+        }
+       let b=a.bind(emp,"karnataka","india");
+       b();
+    </script>-->
+</body>
+</html>

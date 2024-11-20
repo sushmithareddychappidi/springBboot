@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //accessing the string
+        let greet="hello,world"
+        console.log(greet[2]);
+        
+        //differance between type of a and b
+        let a=10;
+        let b="10"
+        console.log(typeof a);
+        console.log(typeof b);
+
+        //difference between concatination of string and template string(string idomptation)
+        let num1=10;
+        let num2=20;
+        console.log("total of num1 and num2 is "+(num1+num2));
+        console.log(`total of num1 and num2 is ${num1+num2}`);
+        console.log(`total of ${num1} and ${num2} is ${num1+num2}`);
+
+        //substring  //substring and slice work similar
+        let x="college";
+        console.log(x.substring(0,2));
+
+        //slice
+        console.log(x.slice(0,2));
+        
+        //case conversion
+        let wish="good morning";
+        console.log(wish);
+        let wish2=wish.toUpperCase();
+        console.log(wish2);
+        let wish3=wish2.toLowerCase();
+        console.log(wish3);
+
+        //charAt------>it will written the character present in the particular index
+        let name="sushmi";
+        console.log(name.charAt(5));
+
+        //charCodeAt----->it will written the character ascii code value for the index u r accessing
+        let name1="sushmi";
+        console.log(name1.charCodeAt(3));
+
+        //indexOf----->if the value of u r searching for the index is not present in the string it will give -1,if present it will give the index value
+        let p="newyear";
+        console.log(p.indexOf("e"));
+        console.log(p.indexOf("z"));
+
+        //split--->split is used to separate the one string into multiple string
+        let fruits="apple ,orange, strawberry"
+        console.log(fruits.split(","));
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width:100px;
+            height:100px;
+            background-color: aqua;
+            color:black;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+          fetch("https://fakestoreapi.com/products").then((res)=>{
+            console.log(res);//return response object
+            return res.json();
+        }).then((data)=>{
+           // console.log(data);
+
+            data.forEach(element => {
+                let h1=`<div><h1>${element.title}</h1></div>`;
+                let h2=`<div><h1>${element.price}</h1></div>`;   
+                document.getElementById("#container").innerHTML=h1;         
+            }); 
+        }).catch(()=>{
+            console.log("hi");
+
+        }).catch(()=>{
+            console.log("loading......");
+        })
+    </script>
+</body>
+</html>

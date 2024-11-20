@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="input">
+    <button id="submit" onclick="submit()" >submit otp</button>
+    <button id="generate" onclick="generate()">Generate otp</button>
+    <script>
+         let a=Math.floor(Math.random()*9999);
+         function generate()
+         {
+            if(a>=1000 && a<=9999)
+            document.getElementById("generate").textContent=""+a+"";
+         }
+         let otp=document.getElementById("input");
+         function submit()
+         {
+             let b=otp.value;
+             if(a==b)
+             {
+                document.write("access granted");
+                //alert("access granted");
+             }
+             else
+             {
+                document.write("access denied");
+                //alert("access denied");
+             }
+         }
+        
+    </script>
+</body>
+</html>
